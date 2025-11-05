@@ -3,7 +3,7 @@ ARG IMAGE_BASE=16-alpine
 
 FROM ${ARCH}node:$IMAGE_BASE
 LABEL Name="Node.js Demo App" Version=4.8.5
-LABEL org.opencontainers.image.source = "https://github.com/prashasth2002naik/simple_nodejs_lab.git"
+LABEL org.opencontainers.image.source = "https://github.com/sreepathysois/simple-nodejs-app_Lab_Exam"
 ENV NODE_ENV production
 WORKDIR /app 
 
