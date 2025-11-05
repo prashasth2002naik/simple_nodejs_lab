@@ -12,7 +12,7 @@ COPY package.json ./
 RUN npm install --production --silent
 
 # NPM is done, now copy in the rest of the project to the workdir
-COPY .
+COPY . .
 
 # Port 3000 for our Express server 
 EXPOSE 3000
