@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: monitorapp
-        image: prashasthnaik/nodemonitoringappp:v1
+        image: prashasthnaik/nodemonitoringappp:latest
         ports:
         - containerPort: 3000
