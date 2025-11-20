@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pythonmonitor
+  name: nodemonitor
   labels:
     app: monitorapp
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: monitorapp
-        image: prashasthnaik/nodemonitoringapp:v1
+        image: prashasthnaik/nodemonitoringappp:v1
         ports:
         - containerPort: 3000
